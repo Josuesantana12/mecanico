@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: rgba(49, 66, 221, 0.966);
+}
+
+.container {
+    position: fixed;
+    top: 0;
+    right: 15px;
+}
+
+.container img {
+    width: 80px;
+}
+
+.perfil{
+    width: 180px;
+    padding: 0px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 4px;
+    justify-content: center;
+    display: flex;
+}
+
+.imagen{
+    padding: 0px;
+    margin: auto;
+    margin-top: 5px;
+    border-radius: 4px;
+    justify-content: center;
+    display: flex;
+}
+
+.form-register {
+    width: 400px;
+    margin: 100px;
+    border-radius: 4px;
+    font-family: Helvetica;
+    box-shadow: 7p 13px 37px #000;
+}
+
+.controls {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px;
+    font-family:Helvetica;
+    font-size: 15px;
+}
+
+.form-register p {
+    height: 40px;
+    text-align: center;
+    font-size: 15px;
+    line-height: 40px;
+}
+
+.form-register a {
+    color: black;
+    text-decoration: none;
+}
+
+.form-register a:hover {
+    text-decoration: underline;
+}
+
+.form-register .botones {
+    width: 100%;
+    background: red;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin: 16px 0;
+    font-size: 16px;
+}
+
+.perfilContainer{
+    width: 20%;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+.listChecks{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-top: 100px;
+}
+
+.drop-area {
+    border: 5px dashed #ddd;
+    height: 500px;
+    width: 700px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.drop-area.active{
+    background-color: #b8d4fe;
+    color: black;
+    border: 2px dashed #e0762f;
+}
+
+.drop-area h2 {
+    font-size: 30px;
+    font-weight: 500;
+    color: #000;
+}
+
+.drop-area span {
+    font-size: 25px;
+    font-weight: 500;
+    color: #000;
+}
+
+.drop-area button {
+    padding: 10px 25px;
+    font-size: 20px;
+    border: 0;
+    outline: none;
+    background-color: #d11919;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.file-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border: solid 1px #ddd;
+}
+
+#preview {
+    margin-top: 10px;
+}
+
+.status-text {
+    padding: 0 10px;
+}
+
+.success {
+    color: #52ad5a;
+}
+
+.failure {
+    color: #ff0000;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Usuario</title>
+    <link rel="stylesheet" href="../styles/Usuario.css">
+</head>
+
+<body>
+
+    <h1 class="text">Registrarse como usuario:</h1>
+
+    <main>
+
+        <div class="perfilContainer">
+            <img class="perfil" src="../assets/Perfil.png" width="100px" height="180px">
+
+            <div class="imagen" style="margin-top: 5px;">
+                <label for="avatar"><strong></strong></label>
+                <input type="file" name="avatar" id="avatar">
+            </div>
+        </div>
+
+        <section class="form-register">
+            <input class="controls" type="text" class="box" placeholder="NOMBRE">
+            <input class="controls" type="text" class="box" placeholder="NOMBRE DEL TALLER">
+            <input class="controls" type="text" class="box" placeholder="DIRECCIÓN">
+            <input class="controls" type="text" class="box" placeholder="TELÉFONO">
+            <input class="controls" type="email" class="box" placeholder="CORREO ELECTRONICO">
+            <input class="controls" type="password" class="box" placeholder="CONTRASEÑA">
+            <input class="controls" type="password" class="box" placeholder="VERIFICAR CONTRASEÑA">
+
+            <p>Estoy de acuerdo con <a href="#">Terminos y Condiciones</a></p>
+
+            <input class="botones" type="submit" value="Registrar">
+            <input class="botones" type="submit" value="Cancelar">
+
+            <p><a href="#">¿Ya tengo cuenta?</a></p>
+        </section>
+
+        <div class="listChecks">
+            <div class="checkbox">
+                <input type="checkbox" name="Mecanica general" id="Mecanica general"> Mecanica general
+            </div>
+        
+            <div class="checkbox2">
+                <input type="checkbox" name="Llantas y suspensión" id="Llantas y suspensión"> Llantas y suspensión
+            </div>
+        
+            <div class="checkbox3">
+                <input type="checkbox" name="Mecanica diesel" id="Mecanica diesel"> Mecanica diesel
+            </div>
+        
+            <div class="checkbox4">
+                <input type="checkbox" name="Transmisores" id="Transmisores"> Transmisores
+            </div>
+        
+            <div class="checkbox5">
+                <input type="checkbox" name="Electrico automotriz" id="Electrico automotriz"> Electrico automotriz
+            </div>
+        
+            <div class="checkbox6">
+                <input type="checkbox" name="Pintura y hojalatería" id="Pintura y hojalatería"> Pintura y hojalatería
+            </div>
+
+        <div class="drop-area">
+            <h2>Arrastra y suelta imagenes</h2>
+            <span>O</span>
+            <button>Selecciona tus archivos</button>
+            <input type="file" name="" id="input-file" hidden multiple>
+        </div>
+        <div id="preview"></div>
+
+        <script src="Usuario.js"></script>
+
+        </div>
+    </main>
+
+</body>
+
+</html>

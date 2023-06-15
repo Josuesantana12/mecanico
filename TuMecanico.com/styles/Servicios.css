@@ -1,0 +1,119 @@
+.container{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.ladoizquierdo{
+    width: 40%;
+}
+
+.registro{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;   
+}
+
+.horizontal {
+    list-style: none;
+    display: flexbox;
+    justify-content: space-around;
+}
+
+.horizontal > li > a {
+    display: block;
+    padding: 5px 20px;
+    text-decoration: none;
+    color: white;
+
+}
+
+.horizontal >li:hover {
+    background-color: red;
+}
+
+.vertical {
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+}
+
+.horizontal li:hover .vertical {
+    display: block;
+}
+
+.vertical li:hover {
+    background-color: black;
+}
+
+.vertical li a {
+    display: block;
+    color: white;
+    padding: 15px 15px 15px 20px;
+    text-decoration: none;
+}
+
+.Horizontal {
+    list-style: none;
+    display: flexbox;
+    justify-content: space-around;
+}
+
+.Horizontal > li > a {
+    display: block;
+    padding: 5px 20px;
+    text-decoration: none;
+    color: white;
+
+}
+
+.Horizontal >li:hover {
+    background-color: red;
+}
+
+.Vertical {
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+}
+
+.Horizontal li:hover .Vertical {
+    display: block;
+}
+
+.Vertical li:hover {
+    background-color: black;
+}
+
+.Vertical li a {
+    display: block;
+    color: white;
+    padding: 15px 15px 15px 20px;
+    text-decoration: none;
+}
+
+.registro input{
+    height: 30px;
+    width: 60%;
+}
+
+.descripcion{
+    font-weight: normal;
+    font-size: 18px;
+    text-align: justify;
+    font-family: 'arial';
+}
+
+.ladoderecho .btncita {
+    width: 100%;
+    text-align: center;
+    float: right;
+}
+
+.btncita{
+    padding: 10px 30px;
+    font-weight: bold;
+}

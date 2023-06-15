@@ -1,0 +1,33 @@
+.container{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 100px;
+}
+
+.ladoizquierdo{
+    width: 50%;
+}
+
+.ladoderecho{
+    width: 50%;
+    text-align: center;
+}
+
+.registro{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+
+.registro input{
+    height: 30px;
+    width: 60%;
+}
+
+.boton{
+    padding: 10px 30px;
+    font-weight: bold;
+}

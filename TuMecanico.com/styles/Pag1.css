@@ -1,0 +1,93 @@
+.containerPerfil {
+    position: fixed;
+    top: 13px;
+    right: 30px;
+}
+
+.containerPerfil img {
+    width: 80px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(49, 66, 221, 0.966);
+}
+
+header {
+    padding: 10px;
+    background-color: #0f4082;
+}
+
+menu {
+    display: flex;
+    flex-direction: row;
+    background-color: #3256b7;
+}
+
+.Menu-horizontal {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Menu-horizontal > li > a {
+    display: block;
+    padding: 5px 20px;
+    text-decoration: none;
+    color: white;
+
+}
+
+.Menu-horizontal >li:hover {
+    background-color: red;
+}
+
+.Menu-vertical {
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+}
+
+.Menu-horizontal li:hover .Menu-vertical {
+    display: block;
+}
+
+.Menu-vertical li:hover {
+    background-color: black;
+}
+
+.Menu-vertical li a {
+    display: block;
+    color: white;
+    padding: 15px 15px 15px 20px;
+    text-decoration: none;
+}
+
+.talleres {
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+}
+
+.Menu-horizontal li:hover .talleres {
+    display: block;
+}
+
+.talleres li:hover {
+    background-color: black;
+}
+
+.talleres li a {
+    display: block;
+    color: white;
+    padding: 15px 15px 15px 20px;
+    text-decoration: none;
+}
